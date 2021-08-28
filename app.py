@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, WORLD!'
+    return 'Hello, world!'
 
 
 @app.route('/widgets')
